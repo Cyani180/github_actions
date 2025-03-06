@@ -1,6 +1,7 @@
 
 
-name: Control Push
+name: Pytest
+name: flake8 control Push
 on: push
 jobs:
   qa:
@@ -15,8 +16,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install pytest
-      - name: Install flake8
+      - name: Install pytest and flake8
         run: |
           pip install pytest
           pip install flake8

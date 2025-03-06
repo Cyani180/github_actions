@@ -1,7 +1,5 @@
 
-
-name: Pytest
-name: flake8
+name: Pytest & control Push
 on: push
 jobs:
   qa:

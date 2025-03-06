@@ -1,5 +1,5 @@
 
-name: Pytest & control Push
+name: Pytest control Push
 on: push
 jobs:
   qa:
